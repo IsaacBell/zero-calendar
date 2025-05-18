@@ -3,6 +3,7 @@ import GoogleProvider from "next-auth/providers/google"
 import CredentialsProvider from "next-auth/providers/credentials"
 import { kv } from "@/lib/kv-config"
 import bcrypt from "bcryptjs"
+import crypto from "crypto"
 import { getServerSession } from "next-auth/next"
 
 export const authOptions: NextAuthOptions = {
@@ -94,7 +95,8 @@ export async function getUserByEmail(email: string) {
 
 export async function createUser(name: string, email: string, password: string) {
   const hashedPassword = await bcrypt.hash(password, 10)
-  const userId = `user_${Date.now()}_${Math.random().toString(36).substring(2, 9)}`
+  const randomString = crypto.randomBytes(6).toString("base64url") // Generate a secure random string
+  const userId = `user_${Date.now()}_${randomString}`
 
   await kv.hset(`user:${userId}`, {
     id: userId,
