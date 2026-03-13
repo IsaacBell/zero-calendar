@@ -10,13 +10,13 @@ Zero Calendar is an open-source AI calendar solution that gives users the power 
 ## Why Zero Calendar?
 Most calendar services today are either closed-source, data-hungry, or lack intelligent features. Zero Calendar is different:
 
-✅ **Open-Source** – No hidden agendas, fully transparent.  
-🦾 **AI Driven** - Enhance your scheduling with AI assistants & LLMs.  
-🔒 **Data Privacy First** – Your schedule, your data. Zero Calendar does not track, collect, or sell your data in any way.  
-⚙️ **Self-Hosting Freedom** – Run your own calendar app with ease.  
-📅 **Unified Calendar** – Connect multiple calendar providers like Google Calendar, Outlook, and more.  
-🎨 **Customizable UI & Features** – Tailor your calendar experience the way you want it.  
-🚀 **Developer-Friendly** – Built with extensibility and integrations in mind.  
+**Open-Source** – No hidden agendas, fully transparent.  
+**AI Driven** - Enhance your scheduling with AI assistants & LLMs.  
+**Data Privacy First** – Your schedule, your data. Zero Calendar does not track, collect, or sell your data in any way.  
+**Self-Hosting Freedom** – Run your own calendar app with ease.  
+**Unified Calendar** – Connect multiple calendar providers like Google Calendar, Outlook, and more.  
+**Customizable UI & Features** – Tailor your calendar experience the way you want it.  
+**Developer-Friendly** – Built with extensibility and integrations in mind.  
 
 ## Tech Stack
 Zero Calendar is built with modern and reliable technologies:
@@ -128,15 +128,15 @@ GOOGLE_CLIENT_SECRET=your_client_secret
 
 ## Features
 
-- 🤖 **AI Assistant**: Interact with your calendar using natural language
-- 🔄 **Google Calendar Integration**: Sync with your existing Google Calendar
-- 🎨 **Customizable UI**: Dark mode and personalized settings
-- 🔄 **Recurring Events**: Comprehensive support for recurring events with exceptions
-- 🌐 **Timezone Management**: Full timezone support for global scheduling
-- 📤 **Import/Export**: Import and export calendar data in ICS and CSV formats
-- ⌨️ **Keyboard Shortcuts**: Power user shortcuts for efficient calendar management
-- 🔔 **Event Management**: Create, edit, and delete events with ease
-- 🔒 **Secure Authentication**: Login with email/password or Google OAuth
+- **AI Assistant**: Interact with your calendar using natural language
+- **Google Calendar Integration**: Sync with your existing Google Calendar
+- **Customizable UI**: Dark mode and personalized settings
+- **Recurring Events**: Comprehensive support for recurring events with exceptions
+- **Timezone Management**: Full timezone support for global scheduling
+- **Import/Export**: Import and export calendar data in ICS and CSV formats
+- **Keyboard Shortcuts**: Power user shortcuts for efficient calendar management
+- **Event Management**: Create, edit, and delete events with ease
+- **Secure Authentication**: Login with email/password or Google OAuth
 
 ### Keyboard Shortcuts
 
