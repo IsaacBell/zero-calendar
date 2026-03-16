@@ -180,6 +180,8 @@ export async function getGoogleCalendarEvents(
     )
 
     if (!response.ok) {
+      const errorBody = await response.text()
+      console.error("[Google] Calendar API error:", response.status, errorBody)
       throw new Error(`Failed to fetch Google Calendar events: ${response.statusText}`)
     }
 
