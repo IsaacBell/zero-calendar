@@ -35,18 +35,21 @@ export function CalendarHeader() {
             <Button
               variant="ghost"
               className="text-sm font-medium rounded-lg transition-colors hover:bg-mono-100 dark:hover:bg-mono-800"
+              onClick={() => router.push("/calendar")}
             >
               Calendar
             </Button>
             <Button
               variant="ghost"
               className="text-sm font-medium rounded-lg transition-colors hover:bg-mono-100 dark:hover:bg-mono-800"
+              onClick={() => router.push("/calendar")}
             >
               Schedule
             </Button>
             <Button
               variant="ghost"
               className="text-sm font-medium rounded-lg transition-colors hover:bg-mono-100 dark:hover:bg-mono-800"
+              onClick={() => router.push("/tasks")}
             >
               Tasks
             </Button>
@@ -139,18 +142,21 @@ export function CalendarHeader() {
             <Button
               variant="ghost"
               className="w-full justify-start text-sm rounded-lg hover:bg-mono-100 dark:hover:bg-mono-800"
+              onClick={() => router.push("/calendar")}
             >
               Calendar
             </Button>
             <Button
               variant="ghost"
               className="w-full justify-start text-sm rounded-lg hover:bg-mono-100 dark:hover:bg-mono-800"
+              onClick={() => router.push("/calendar")}
             >
               Schedule
             </Button>
             <Button
               variant="ghost"
               className="w-full justify-start text-sm rounded-lg hover:bg-mono-100 dark:hover:bg-mono-800"
+              onClick={() => router.push("/tasks")}
             >
               Tasks
             </Button>
